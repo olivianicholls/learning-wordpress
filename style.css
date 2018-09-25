@@ -1,0 +1,40 @@
+/*
+Theme Name: LearningWordPress
+Theme URI: https://wehavezeal.com
+Author: Olivia Nicholls
+Author URI: https://wehavezeal.com
+Description: Learning WordPress
+Version: 1.0
+Text Domain: testtheme
+*/
+
+body {
+  margin: 0;
+  background-color: #854C97;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.site-container {
+  margin: 56px;
+
+}
+ul {
+   list-style-type: none;
+}
+li {
+  display: inline;
+}
+.post {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-left: 56px;
+  background-color: #333;
+  width: 100%;
+}
